@@ -5,7 +5,7 @@ cask "utter" do
   url "https://github.com/ShanTirmizi/utter/releases/download/v#{version}/Utter-apple-silicon.dmg"
   name "Utter"
   desc "Free, private voice dictation"
-  homepage "https://utter-beta.vercel.app/"
+  homepage "https://utter.shantirmizi.com/"
 
   livecheck do
     url :url
