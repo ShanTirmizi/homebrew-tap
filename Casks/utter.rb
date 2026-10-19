@@ -1,6 +1,6 @@
 cask "utter" do
-  version "0.6.0"
-  sha256 "7d952846caed490acdaff59e68609d8cbc9b36fe8c98ff026f4e8a599766fc4c"
+  version "0.6.2"
+  sha256 "93b18afdb799a5ba3de0682f9e2544a08941ff878db221f5bedd8829544fab8d"
 
   url "https://github.com/ShanTirmizi/utter/releases/download/v#{version}/Utter-apple-silicon.dmg"
   name "Utter"
@@ -12,6 +12,7 @@ cask "utter" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :monterey
 
